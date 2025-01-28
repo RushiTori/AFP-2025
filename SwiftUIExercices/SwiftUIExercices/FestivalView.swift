@@ -10,7 +10,7 @@ import SwiftUI
 struct FestivalView: View {
     var body: some View {
         ZStack {
-            Image(.exerciceThreeBG)
+            Image(.festivalBG)
             
             VStack {
                 Spacer()

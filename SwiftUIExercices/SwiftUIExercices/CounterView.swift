@@ -1,5 +1,5 @@
 //
-//  ExerciceCounterView.swift
+//  CounterView.swift
 //  ExeciceSwiftUI
 //
 //  Created by apprenant97 on 27/01/2025.
@@ -25,7 +25,7 @@ struct ButtonBody : View {
     }
 }
 
-struct ExerciceCounterView: View {
+struct CounterView: View {
     @State var counter: Int = 0
 
     var body: some View {
@@ -59,5 +59,5 @@ struct ExerciceCounterView: View {
 }
 
 #Preview {
-    ExerciceCounterView()
+    CounterView()
 }

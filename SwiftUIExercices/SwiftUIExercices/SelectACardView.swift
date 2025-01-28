@@ -50,6 +50,14 @@ enum SuitType {
             return "As de trèfle"
         }
     }
+    
+    mutating func toggle(between: SuitType) {
+        if self == between {
+            self = .none
+        } else {
+            self = between
+        }
+    }
 }
 
 struct Card: View {
@@ -58,11 +66,7 @@ struct Card: View {
     
     var body: some View {
         Button {
-            if suitRef.wrappedValue == suit {
-                suitRef.wrappedValue = .none
-            } else {
-                suitRef.wrappedValue = suit
-            }
+            suitRef.wrappedValue.toggle(between: suit)
         } label: {
             VStack {
                 Image(systemName: suit.symbol)
@@ -77,7 +81,6 @@ struct Card: View {
             .cornerRadius(12)
             .shadow(radius: 8, y: 12)
         }
-        
     }
 }
 

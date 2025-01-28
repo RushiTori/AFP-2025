@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C7D3885B2D43C9DC008F1071 /* ExeciceSwiftUI */ = {
+		C7D3885B2D43C9DC008F1071 /* SwiftUIExercices */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExeciceSwiftUI;
+			path = SwiftUIExercices;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		C7D388502D43C9DC008F1071 = {
 			isa = PBXGroup;
 			children = (
-				C7D3885B2D43C9DC008F1071 /* ExeciceSwiftUI */,
+				C7D3885B2D43C9DC008F1071 /* SwiftUIExercices */,
 				C7D3885A2D43C9DC008F1071 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C7D3885B2D43C9DC008F1071 /* ExeciceSwiftUI */,
+				C7D3885B2D43C9DC008F1071 /* SwiftUIExercices */,
 			);
 			name = SwiftUIExercices;
 			packageProductDependencies = (
@@ -251,7 +251,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ExeciceSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIExercices/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -264,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.RushiTori.ExeciceSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RushiTori.SwiftUIExercices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -279,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ExeciceSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIExercices/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.RushiTori.ExeciceSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RushiTori.SwiftUIExercices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
