@@ -61,12 +61,12 @@ enum SuitType {
 }
 
 struct Card: View {
-    var suitRef: Binding<SuitType>
+    @Binding var suitRef: SuitType
     let suit: SuitType
     
     var body: some View {
         Button {
-            suitRef.wrappedValue.toggle(between: suit)
+            suitRef.toggle(between: suit)
         } label: {
             VStack {
                 Image(systemName: suit.symbol)
