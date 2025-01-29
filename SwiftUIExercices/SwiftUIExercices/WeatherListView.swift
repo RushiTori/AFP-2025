@@ -9,12 +9,16 @@ import SwiftUI
 
 struct WeatherListView: View {
     var body: some View {
-        List(weathers) { weather in
-            HStack {
-                Image(systemName: weather.symbol)
-                Text(weather.name)
+        ZStack {
+            VStack(alignment: .leading) {
+                Text("Weather")
+                    .bold()
+                    .font(.largeTitle)
+                    .padding(.horizontal)
+                List(weathers) { weather in
+                    WeatherButtonView()
+                }.ignoresSafeArea()
             }
-            .foregroundStyle(weather.color)
         }
     }
 }
