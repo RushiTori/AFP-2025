@@ -9,19 +9,20 @@ import SwiftUI
 
 struct FruitListView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Les Fruits")
-                .bold()
-                .foregroundStyle(.gray)
-                .font(.largeTitle)
-            
-            ScrollView {
-                ForEach(fruits) { fruit in
-                    FruitButtonView(fruit: fruit)
+        NavigationStack {
+            VStack(alignment: .leading) {
+                ScrollView {
+                    ForEach(fruits) { fruit in
+                        NavigationLink {
+                            FruitListChildView(fruit: fruit)
+                        } label: {
+                            FruitButtonView(fruit: fruit)
+                        }
+                    }
                 }
             }
+            .navigationTitle("Les Fruits")
         }
-        .padding()
     }
 }
 

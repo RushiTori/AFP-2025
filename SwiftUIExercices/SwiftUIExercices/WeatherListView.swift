@@ -9,17 +9,17 @@ import SwiftUI
 
 struct WeatherListView: View {
     var body: some View {
-        ZStack {
-            VStack(alignment: .leading) {
-                Text("Weather")
-                    .bold()
-                    .font(.largeTitle)
-                    .padding(.horizontal)
-                List(weathers) { weather in
+        NavigationStack {
+            List(weathers) { weather in
+                NavigationLink {
+                    WeatherListChildView(weather: weather)
+                } label: {
                     WeatherButtonView(weather: weather)
-                }.ignoresSafeArea()
+                }
             }
+            .navigationTitle("Weather")
         }
+       
     }
 }
 

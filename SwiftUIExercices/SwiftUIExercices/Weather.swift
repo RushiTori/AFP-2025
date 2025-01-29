@@ -16,7 +16,7 @@ struct Weather: Identifiable {
 
 let weathers: [Weather] = [
     Weather(name: "Sunny", symbol: "sun.max", color: .yellow),
-    Weather(name: "Clouds", symbol: "cloud.fill", color: .blue),
+    Weather(name: "Clouds", symbol: "smoke.fill", color: .blue),
     Weather(name: "Storm", symbol: "cloud.bolt.fill", color: .gray),
     Weather(name: "Moon", symbol: "moon.fill", color: .purple),
     Weather(name: "Snow", symbol: "snowflake", color: .cyan),

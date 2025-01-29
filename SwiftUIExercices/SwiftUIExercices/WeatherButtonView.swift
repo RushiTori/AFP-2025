@@ -19,7 +19,7 @@ struct WeatherButtonView: View {
             .font(.title)
             .padding()
             Spacer()
-            Image(systemName: "chevron.right")
+            //Image(systemName: "chevron.right")
                 .foregroundStyle(.gray)
         }
     }
