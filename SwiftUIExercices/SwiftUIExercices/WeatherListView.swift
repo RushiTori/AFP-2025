@@ -16,7 +16,7 @@ struct WeatherListView: View {
                     .font(.largeTitle)
                     .padding(.horizontal)
                 List(weathers) { weather in
-                    WeatherButtonView()
+                    WeatherButtonView(weather: weather)
                 }.ignoresSafeArea()
             }
         }

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WeatherButtonView: View {
+    var weather: Weather
     var body: some View {
         HStack {
             HStack {
